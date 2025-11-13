@@ -13,6 +13,7 @@ The portfolio demonstrates modern web design techniques with clean visuals, acce
 ## 🧱 Project Structure
 This is a **multi-page website**, consisting of:
 
+- Figma link: https://www.figma.com/design/iMXjQEdCk54nVoStUmczxz/Untitled?node-id=0-1&m=dev&t=hZBe3IE5xvaMKZpw-1
 - index.html → Home page  
 - work.html → Projects & portfolio showcase  
 - about.html → About me & skills section  
@@ -89,9 +90,10 @@ Includes references from 3 other designer portfolio websites, color palette insp
 - HTML5  
 - Tailwind CSS (via CDN)  
 - Google Fonts (Inter)  
-- Figma (Design)  
-- GitHub (Version control)  
-
+- Figma ( link: https://www.figma.com/design/iMXjQEdCk54nVoStUmczxz/Untitled?node-id=0-1&m=dev&t=hZBe3IE5xvaMKZpw-1
+- index.html → Home page  )  
+- GitHub https://github.com/hamzamalik5240607-cyber()  
+- Google Docs (https://docs.google.com/document/d/1XPaSc8KtPtsJbzssnBEddIVr0bQhNCerRuI34t__bh8/edit?usp=sharing)
 ---
 
 ##  How to Run the Project
