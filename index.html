@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK Studio</title>
+    <link rel="stylesheet" href="/src/output.css">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0f1724',
+            card: '#0b1220',
+            accent: '#7c3aed',
+            muted: '#94a3b8'
+          },
+          borderRadius: {
+            'xl2': '14px'
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif;  background-color: #03071e;}
+    
+  </style>
+</head>
+
+<body class="bg-bg text-white min-h-screen">
+  <div class="max-w-6xl mx-auto px-6 py-10">
+    <!-- Header -->
+    <header class="flex justify-between items-center mb-12">
+      <h1 class="text-2xl font-extrabold tracking-tight">Hamza <span class="text-accent">Kamran</span></h1>
+      <nav class="space-x-6 text-muted font-semibold">
+        <a href="/src/index.html" target="_blank" class="hover:text-white">Home</a>
+        <a href="/src/work.html" target="_blank" class="hover:text-white">Works</a>
+        <a href="#About" target="_blank" class="hover:text-white">About</a>
+         <a href="#Contact" target="_blank" class="hover:text-white">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="grid md:grid-cols-2 gap-8 items-center mb-16">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-3">Hello — I build beautiful, high-converting websites.</h2>
+        <p class="text-muted mb-5">I’m Hamza, a web & UI designer focused on clean interfaces, smooth interactions, and performance-first sites.</p>
+        <a href="/contact.html" target="_blank" class="inline-block bg-gradient-to-r from-accent to-indigo-600 text-white font-semibold px-5 py-3 rounded-full">Work with me</a>
+
+        <div class="mt-6 bg-card rounded-xl2 p-4 shadow-lg flex gap-4 items-center">
+          <div class="w-16 h-16 rounded-xl2 bg-gradient-to-b from-[#172031] to-[#0d1624] flex items-center justify-center font-bold text-xl text-accent">HK</div>
+          <div>
+            <p class="font-semibold">Available for freelance</p>
+            <p class="text-sm text-muted mt-1">Specialising in Webflow, HTML/CSS and Frontend development</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="bg-card rounded-xl2 p-4 shadow-lg">
+        <h3 class="font-semibold mb-3">Featured Project</h3>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" alt="featured" class="rounded-lg mb-3">
+        <p class="text-muted text-sm">A fast landing page that converts visitors into customers. Smooth micro-interactions and A/B ready sections.</p>
+      </aside>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works">
+      <h2 class="text-2xl font-bold mb-4">Selected Work</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="bg-card rounded-xl2 overflow-hidden shadow-md">
+          <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold mb-1">Brand Website</h4>
+            <p class="text-sm text-muted">Design + Webflow development — performance focused.</p>
+          </div>
+        </div>
+
+        <div class="bg-card rounded-xl2 overflow-hidden shadow-md">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold mb-1">Product Landing</h4>
+            <p class="text-sm text-muted">Conversion optimized landing page and analytics setup.</p>
+          </div>
+        </div>
+
+        <div class="bg-card rounded-xl2 overflow-hidden shadow-md">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop" class="h-40 w-full object-cover" />
+          <div class="p-3">
+            <h4 class="font-semibold mb-1">E-commerce UI</h4>
+            <p class="text-sm text-muted">Modern UI and checkout flow improvements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="grid md:grid-cols-2 gap-6 mt-12">
+      <div class="bg-card rounded-xl2 p-5 shadow-md">
+        <h3 class="text-lg font-bold mb-2">About me</h3>
+        <p class="text-muted">I design and build websites that feel polished and load fast. I love turning complex problems into simple, delightful interfaces. My stack: HTML, CSS, JavaScript, Webflow, and basic backend integrations.</p>
+      </div>
+
+      <div class="bg-card rounded-xl2 p-5 shadow-md">
+        <h3 class="text-lg font-bold mb-2">Skills & Services</h3>
+        <p class="text-muted">UI/UX design, Responsive front-end, Performance optimization, Webflow builds, Landing pages, Conversion optimization.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mt-10">
+      <div class="bg-card rounded-xl2 p-6 shadow-md">
+        <h3 class="text-lg font-bold mb-2">Contact</h3>
+        <p class="text-muted mb-4">Want to work together? Send an email to <strong>hamzamalik5240607@gmail.com</strong> or use the form below.</p>
+        <form class="flex flex-col gap-3">
+          <input type="text" placeholder="Your name" class="p-3 rounded-lg bg-transparent border border-white/10 text-white placeholder-muted">
+          <input type="email" placeholder="Email" class="p-3 rounded-lg bg-transparent border border-white/10 text-white placeholder-muted">
+          <textarea rows="4" placeholder="Message" class="p-3 rounded-lg bg-transparent border border-white/10 text-white placeholder-muted"></textarea>
+          <button type="submit" class="p-3 rounded-lg bg-gradient-to-r from-accent to-indigo-600 font-semibold">Send message</button>
+        </form>
+      </div>
+    </section>
+
+
+
+<footer class="mt-10 py-6 px-5 bg-white/5 rounded-lg flex flex-col sm:flex-row justify-between items-center text-sm text-muted">
+  <!-- Left side text -->
+  <p>© Hamza Kamran • Built with ❤️</p>
+
+  <!-- Right side icons -->
+  <div class="flex space-x-4 mt-4 sm:mt-0">
+    <a href="#"><img src="/assects/icons/facebook.png" width="24" alt="Facebook"></a>
+    <a href="#"><img src="/assects/icons/tik-tok.png" width="24" alt="TikTok"></a>
+    <a href="#"><img src="/assects/icons/youtube.png" width="24" alt="YouTube"></a>
+  </div>
+</footer>
+
+
+  </div>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^=\"#\"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();
+        const id=a.getAttribute('href');
+        const el=document.querySelector(id);
+        if(el) el.scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
